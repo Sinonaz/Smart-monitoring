@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Download, MapPin, Calendar, Clock, AlertTriangle, CheckCircle2 } from 'lucide-react';
 import { MOCK_OPERATIONS } from '../constants';
-import { Operation } from '../types';
+import type { Operation } from '../types';
 
 const OperationDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();

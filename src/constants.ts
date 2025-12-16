@@ -1,4 +1,4 @@
-import { Operation, AnalyticData } from './types';
+import type { Operation, AnalyticData } from './types';
 
 export const STAGE_NAMES = [
   'Допуск на производственную площадку',

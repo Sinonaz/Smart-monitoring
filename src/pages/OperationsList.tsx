@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, Filter, Clock, MapPin, Calendar, AlertCircle, ChevronDown } from 'lucide-react';
 import { MOCK_OPERATIONS } from '../constants';
-import { OperationType, FilterState } from '../types';
+import type { OperationType, FilterState } from '../types';
 
 const OperationsList: React.FC = () => {
   const navigate = useNavigate();
